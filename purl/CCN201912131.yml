@@ -1,0 +1,15 @@
+# PURL configuration for http://purl.bican.org/taxonomy/CCN201912131
+
+idspace: CCN201912131
+base_url: /taxonomy/CCN201912131
+
+products:
+- CCN201912131.json: https://raw.githubusercontent.com/hkir-dev/human_mtg/main/CCN201912131.json
+
+base_redirect: https://github.com/hkir-dev/human_mtg
+
+entries:
+
+# http://purl.bican.org/taxonomy/CCN201912131/CCN201912131.json
+- exact: /CCN201912131.json
+  replacement: https://raw.githubusercontent.com/hkir-dev/human_mtg/main/CCN201912131.json
